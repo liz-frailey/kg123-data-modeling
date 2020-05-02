@@ -1,19 +1,19 @@
 {
   "$id": "ce_communityStory",
-  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
   "apiName": "ce_communityStory",
   "enabled": true,
-  "entry": [
+  "field": [
     {
-      "id": "event.organizer_email",
+      "id": "yext/organizerEmail",
       "required": false
     },
     {
-      "id": "location.business_description",
+      "id": "yext/description",
       "required": false
     },
     {
-      "id": "location.business_name",
+      "id": "yext/name",
       "required": true
     },
     {
@@ -25,27 +25,23 @@
       "required": false
     },
     {
-      "id": "restaurantPromotions",
-      "required": false
-    },
-    {
       "id": "theme",
       "required": false
     },
     {
-      "id": "location.folder_location",
+      "id": "yext/folder",
       "required": false
     },
     {
-      "id": "location.labels",
+      "id": "yext/labels",
       "required": false
     },
     {
-      "id": "location.store_id",
+      "id": "yext/entityId",
       "required": true
     },
     {
-      "id": "location.youtube_videos",
+      "id": "yext/videos",
       "required": false
     }
   ],

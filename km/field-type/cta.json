@@ -1,6 +1,6 @@
 {
   "$id": "cta",
-  "$schema": "https://schema.yext.com/config/km/custom-field-type/v1",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
   "displayName": "CTA",
   "apiName": "c_cta",
   "type": {
@@ -10,7 +10,7 @@
           "name": "label",
           "displayName": "Label",
           "isRequired": false,
-          "typeId": "type.string",
+          "typeId": "yext/string",
           "type": {
             "stringType": {
               "stereotype": "SIMPLE"
@@ -21,7 +21,7 @@
           "name": "url",
           "displayName": "URL",
           "isRequired": false,
-          "typeId": "type.string",
+          "typeId": "yext/string",
           "type": {
             "stringType": {
               "stereotype": "URL"

@@ -1,12 +1,12 @@
 {
   "$id": "theme",
-  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Theme",
   "apiName": "c_theme",
-  "typeId": "type.list",
+  "typeId": "yext/list",
   "type": {
     "listType": {
-      "typeId": "type.option",
+      "typeId": "yext/option",
       "type": {
         "optionType": {
           "option": [

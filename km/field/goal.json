@@ -1,9 +1,9 @@
 {
   "$id": "goal",
-  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Goal",
   "apiName": "c_goal",
-  "typeId": "type.string",
+  "typeId": "yext/string",
   "type": {
     "stringType": {
       "stereotype": "SIMPLE"

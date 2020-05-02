@@ -1,6 +1,6 @@
 {
   "$id": "promotion",
-  "$schema": "https://schema.yext.com/config/km/custom-field-type/v1",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
   "displayName": "Promotion",
   "apiName": "c_promotion",
   "type": {
@@ -10,7 +10,7 @@
           "name": "title",
           "displayName": "Title",
           "isRequired": false,
-          "typeId": "type.string",
+          "typeId": "yext/string",
           "type": {
             "stringType": {
               "stereotype": "SIMPLE"
@@ -21,7 +21,7 @@
           "name": "photo",
           "displayName": "Photo",
           "isRequired": false,
-          "typeId": "type.image",
+          "typeId": "yext/image",
           "type": {
             "imageType": {
               "isSimpleImage": true,
@@ -38,7 +38,7 @@
           "name": "description",
           "displayName": "Description",
           "isRequired": false,
-          "typeId": "type.string",
+          "typeId": "yext/string",
           "type": {
             "stringType": {
               "stereotype": "MULTILINE"
@@ -49,7 +49,7 @@
           "name": "url",
           "displayName": "URL",
           "isRequired": false,
-          "typeId": "type.string",
+          "typeId": "yext/string",
           "type": {
             "stringType": {
               "stereotype": "URL"
